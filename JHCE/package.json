@@ -1,0 +1,20 @@
+{
+  "name": "jhce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": ["Cypress"],
+  "author": "AJ",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.7.0",
+    "xpath": "^0.0.32"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
