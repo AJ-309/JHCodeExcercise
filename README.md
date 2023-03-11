@@ -4,10 +4,10 @@
 This project includes 3 E2E tests for ecommorce website Amzon.com
 
 ### Introduction to Cypress
-Cypress framework is a JavaScript-based end-to-end testing framework built on Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient
+Cypress framework is a JavaScript-based end-to-end testing framework built on Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. Cypress and Javascript is used for this project.
 
 ### Test Design Approach
-Since these are E2E tests, all tests starts from amazon homepage and not considering only particular functionality on specific page. Because of time limit, this project includes all 3 tests for guest user
+Since these are E2E tests, all tests starts from amazon homepage and not considering only particular functionality on specific page. Because of time limit, this project includes all 3 tests for guest user. Page object model is used to construct all these tests.
 
 ###Test Setup
 ## Installations(Pre-reuisites)
@@ -29,4 +29,4 @@ npx cypress run
 2. To run all tests individually, open terminal in VS code(any IDE), excute following command
 npx cypress open and then run each test
 
-I have default settings for tests : default timeout set to 4000ms and retries: 1 in run mode
+I have default settings for tests : default timeout set to 4000ms and retries: 1 in run mode. These tests can run on CI.
