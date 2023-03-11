@@ -13,11 +13,11 @@ Since these are E2E tests, all tests starts from amazon homepage and not conside
 ### Installations(Pre-reuisites)
 
 Install node.js and cypress
-1. Node.js
+1. Node.js (Version: v18.15.0)
 Step 1: Download Node.js Installer. In a web browser, navigate to https://nodejs.org/en/download/
-Step 2: Install Node.js and NPM from Browser. Once the installer finishes downloading, launch it. ...
+Step 2: Install Node.js and NPM from Browser. Once the installer finishes downloading, launch it.
 Step 3: Verify Installation.
-2. Cypress
+2. Cypress (Version: latest version 12.7.0)
 Using NPM
 Step 1: To install Cypress using the npm (Node package manager) navigate to the project directory and execute the following command: npm init
 Step 2: Once done, run the command below to install Cypress.
