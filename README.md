@@ -1,4 +1,4 @@
-#### JHCodeExcercise
+##### JHCodeExcercise
 
 ### Cypress E2E tests for JH Code Excerice
 This project includes 3 E2E tests for ecommorce website Amzon.com
@@ -10,7 +10,7 @@ Cypress framework is a JavaScript-based end-to-end testing framework built on Mo
 Since these are E2E tests, all tests starts from amazon homepage and not considering only particular functionality on specific page. Because of time limit, this project includes all 3 tests for guest user. Page object model is used to construct all these tests.
 
 ### Test Setup
-## Installations(Pre-reuisites)
+### Installations(Pre-reuisites)
 
 Install node.js and cypress
 1. Node.js
@@ -23,7 +23,7 @@ Step 1: To install Cypress using the npm (Node package manager) navigate to the 
 Step 2: Once done, run the command below to install Cypress.
 Step 3: Verify Installation.
 
-## Run tests
+### Run tests
 1. To run all tests, open terminal in VS code(any IDE), excute following command
 npx cypress run
 2. To run all tests individually, open terminal in VS code(any IDE), excute following command
